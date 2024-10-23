@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    color: #2ecc71; /* Accento verde */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2ecc71; /* Accento verde */
+    font-weight: bold;
+}
+
+.banner {
+    background: #e8f5e9; /* Sfondo verde chiaro */
+    text-align: center;
+    padding: 50px 20px;
+    color: #2ecc71; /* Accento verde */
+}
+
+.banner h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.banner input {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.banner button {
+    background-color: #2ecc71; /* Accento verde */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e8f5e9; /* Sfondo verde chiaro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.feature button {
+    background-color: #2ecc71; /* Accento verde */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #2ecc71; /* Accento verde */
+}
